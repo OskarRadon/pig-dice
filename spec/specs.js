@@ -10,7 +10,9 @@ describe('diceRoll', function() {
   it("generates a random number",function() {
     expect(isNaN(diceRoll())).to.equal(false);
   });
-  // it("puts the random number into currentRoll array",function() {
-  //   expect(isNaN(diceRoll())).to.equal(false);
-  // });
+});
+
+describe('addTotalScore', function(){
+  it("adds value from diceRoll to player's totalScore")
+  expect(testPlayer.totalScore).to.equal();
 });
