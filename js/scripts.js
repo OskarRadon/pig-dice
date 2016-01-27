@@ -1,12 +1,12 @@
 function diceRoll() {
   var randomDice = Math.floor(6 * Math.random() + 1);
   return randomDice;
-  // var rolls = [];
-  // rolls.push(randomDice);
 }
+var totalRound = totalRound + diceRoll();
+// var rolls = [];
+// rolls.push(randomDice);
 
-function Player (playerName, currentRoll, totalScore) {
+function Player (playerName, totalScore) {
   this.playerName = playerName;
-  this.currentRoll = currentRoll;
   this.totalScore = totalScore;
 }
