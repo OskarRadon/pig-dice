@@ -6,3 +6,9 @@ describe('Player', function() {
     expect(testPlayer.totalScore).to.equal(12);
   });
 });
+
+describe('diceRoll', function() {
+  it("generates a random number",function() {
+    expect(isNaN(diceRoll())).to.equal(false);
+  })
+})
